@@ -1,0 +1,16 @@
+{
+  "name": "mocha-testing-tau",
+  "version": "1.0.0",
+  "description": "",
+  "main": "helloMocha.js",
+  "scripts": {
+    "test": "mocha helloMocha.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  }
+}
