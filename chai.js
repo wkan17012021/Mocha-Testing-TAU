@@ -1,9 +1,15 @@
 const chai = require('chai');
 
-const expect = chai.expect;
-const should = chai.should();
+const expect = chai.expect; // expect variable only requires a reference to the expect function
+// expect interface provides a function as a starting point for chaining language assertions. Whereas 
+
+const should = chai.should(); // should variable requires the should function to be called
+// should interface extends Object.Prototype to provide a single getter as the starting point for language assertions.
+// there are some cases where should do not work: https://testautomationu.applitools.com/chai-test-assertions/chapter3.2.html
+
 // assert keyword can also be used in chai and is different to the syntax used in Mocha. 
-// https://testautomationu.applitools.com/chai-test-assertions/chapter3.1.html
+// const assert = chai.assert;
+// https://testautomationu.applitools.com/chai-test-assertions/chapter4.html
 
 // expect API examples
 
